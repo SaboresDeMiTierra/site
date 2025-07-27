@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "arial";
+}
+
+body{
+	background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 45%, rgba(0, 212, 255, 1) 93%);
+	margin: 20px;
+
+
+}
+header{
+	color: white;
+	font-size: 18 px;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+
+}
+
+.search-container{
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 40px;
+
+}
+
+.search-container input[type="text"]{
+	padding: 10px;
+	width: 50%;
+	border: 1px solid #ddd;
+    border-radius: 10px ;
+    font-size: 16px;	
+}
+
+.search-container button{
+	padding: 10px 15px;
+	background-color: #007bff;
+	font-size: 16px;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+
+}
+
+.search-container button:hover{
+	background: orange;
+	transition: 0.4s
+
+
+}
+
+#product-list{
+	list-style: none;
+	padding: 0;
+	display:flex;/* para dejar mostrar los productos en fila */
+	flex-wrap: wrap;/*para que se ajuste todos los elementos a la pantalla */
+	gap: 20px;/*espacio entre productos*/
+	justify-content: center;
+}
+#product-list li{
+	background-color: limegreen;
+	border: 1px solid #eee ;
+	border-radius: 15px;
+	padding: 15px;
+	width: 390px ;/* ancho fijo para cada producto*/
+	height: 370px;
+	text-align: center;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+#product-list li h3{
+	color: black;
+	margin-top: 0;
+	height: 30px;
+	font-size: 25px;
+}
+#product-list li p{
+	color: white;
+	font-size: 19px;
+	
+}
+
+#product-list img{
+	margin-top: 0;
+	padding: 7px;
+}
+.logo {
+display: flex;
+align-items: center;
+margin-right: 450px;
+
+}
+
+.logo img {
+height: 60px;
+margin-right: 10px;
+align-items: center;
+margin-top: -160px;
+}
+
+.title {
+font-weight: bold;
+font-size: 20px;
+line-height: 1.2;
+color: white;
+margin-top: -160px;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+gap: 2.5rem;
+margin-top: -90px;
+margin-left: 310px;
+font-size: 20px;
+
+}
+
+nav a {
+text-decoration: none;
+font-weight: bold;
+color: white;
+}
+nav a.active{
+	color: limegreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
